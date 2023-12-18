@@ -1,0 +1,59 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #8b0032, #4c0016);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    /* Asegura que el color del texto sea blanco */
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #fff;
+    /* Asegura que el color del texto sea blanco */
+}
+
+/* Agrega estilos para el carrusel */
+.slick-slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.gridsonte-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.texto-precio-antes {
+    font-size: 15px;
+    color: #7d8eb5;
+    margin: 10px 0;
+}
+
+.texto-precio-promo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0;
+}
