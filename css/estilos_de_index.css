@@ -1,0 +1,89 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+	width: 100%;
+}
+
+html {
+    background-color: #f7f7f7;
+    height: 100%;
+	width: 100%;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    /* Asegura que el color del texto sea blanco */
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #fff;
+    /* Asegura que el color del texto sea blanco */
+}
+
+/* Agrega estilos para el carrusel */
+.slick-slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.gridsonte-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    
+}
+
+.texto-precio-antes {
+    font-size: 15px;
+    color: #7d8eb5;
+    margin: 10px 0; 
+}
+
+.texto-precio-promo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0;
+}
+
+
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container > .login,
+.main-container > .hero-body{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.form-inline{
+	display: inline-flex;
+}
